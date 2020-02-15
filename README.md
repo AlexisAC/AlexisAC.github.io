@@ -1,1 +1,1 @@
-# https://www.AlexisCampos.com
+# AlexisCampos.com

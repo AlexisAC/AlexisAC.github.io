@@ -168,3 +168,23 @@ body {
       height: 100vh;
       width: 100vw;
   }
+  .footer {
+    background: #32383e;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .footer .copyright {
+    line-height: 1.6;
+    color: #a1aab4;
+    font-size: 14px;
+  }
+  
+  .footer a {
+    color: #fff;
+  }
+  
+  .footer .fa-heart {
+    color: #fb866a;
+  }
+  

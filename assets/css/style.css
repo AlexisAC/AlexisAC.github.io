@@ -1,7 +1,9 @@
 body {
     font-family: 'Lato', arial, sans-serif;
     color: #434343;
-    background: #05ffa1;
+    background-image: url("a.jpg");
+    background-repeat: repeat;
+    background-size: 15vw 15vh;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -124,14 +126,14 @@ body {
   }
   
   .header .profile-content .name {
-    color: #b967ff;
+    color: #32383e;
     font-size: 38px;
     margin-bottom: 5px;
     margin-top: 30px;
   }
   
   .header .profile-content .desc {
-    color: #b967ff;
+    color: #32383e;
     font-family: "Lato", arial, sans-serif;
     font-weight: 400;
     font-size: 24px;

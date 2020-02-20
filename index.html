@@ -1,58 +1,25 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Alexis Campos</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Hola</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/SHB.json", {onProgress: UnityProgress});
+    </script>
   </head>
   <body>
-
-    <header class="header">
-        <div class="container clearfix">                       
-            <img class="img-responsive profile-image img-fluid float-left rounded-circle" src="assets/img/me.png" alt="James Lee" />
-            <img src="assets/img/ji.gif" class="float-left img-fluid" style="height: 20vh" alt=""> 
-            <img src="assets/img/yee.gif" class="float-left img-fluid" style="height: 10vh" alt="">    
-            <div class="profile-content float-left">
-                <h1 class="name">Alexis Campos</h1>
-                <h2 class="desc">contacto@AlexisCampos.com</h2>   
-                <h2 class="desc">DESCARGA EDGE CHROMIUM !!!: <a href="https://support.microsoft.com/es-mx/help/4501095/download-the-new-microsoft-edge-based-on-chromium">DESCARGAR</a></h2>  
-              
-                
-            </div>
-            <img src="assets/img/ji.gif" class="float-right img-fluid" style="height: 20vh" alt=""> 
-            <img src="assets/img/yee.gif" class="float-right img-fluid" style="height: 10vh" alt="">          
-        </div>
-    </header>
-
-    <section class="container clearfix">
-
-        
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xDI8XiXjGqY?autoplay=1&mute=0&enablejsapi=1" allowfullscreen></iframe>
-</div>
- 
-
-
-    </section>
-    <footer class="footer">
-      <div class="container text-center">
-        <a href="https://www.netflix.com/mx/title/70253398"><img src="assets/img/shrek.png" class="text-center" style="height: 50vh" alt="">   </a>
-        
-        <br>
-              <small class="copyright">Diseñado por Alexis <i class="fas fa-heart"></i> con mucho love</small>
-              <small class="copyright"><br> El contenido de este sitio actualmente, no representa al contenido final, simplemente es una página para mi aprendizaje y mi humor</small>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">Hola</div>
       </div>
-  </footer>
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </div>
   </body>
 </html>

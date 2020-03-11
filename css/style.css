@@ -2,14 +2,14 @@
 body {
     font-family: 'Lato', arial, sans-serif;
     color: #434343;
-    background: #9c88ff;
+    background: #dcdde1;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
   body {
-    background-color: #9c88ff;
+    background-color: #dcdde1;
     margin: 0;
     overflow-x: hidden;
   }
@@ -25,7 +25,7 @@ body {
     background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
     background-repeat: repeat;
     animation: bg-animation .01s infinite;
-    opacity: 1;
+    opacity: 0.7;
     visibility: visible;
   }
   
@@ -120,14 +120,14 @@ body {
   /* Header */
   .header {
     padding: 10px 0;
-    background: #ecf0f1;
+    background: #f5f6fa;
     border-bottom: 5px solid #8c7ae6;
   }
 
   
   .header .perfil-img {
-    margin-right: 70px;
-    margin-left: 150px;
+    /* margin-right: 70px;
+    margin-left: 150px; */
   }
   
   .header .perfil-contenido .nombre {
@@ -157,7 +157,7 @@ body {
   }
   
   .section .section-inner {
-    background: #ecf0f1;
+    background: #f5f6fa;
     padding: 30px;
   }
   
